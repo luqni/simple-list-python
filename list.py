@@ -49,6 +49,8 @@ def menu():
 		hapus()
 	elif(pilih == 4):
 		stop = True
+	else:
+		stop = True
 def hapus():
 	a = 0
 	print "Kamu memiliki {} pegawai" .format(len(pegawai))
